@@ -1,0 +1,34 @@
+@media only screen and (min-width: 650px) {
+
+    header span {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .parent section {
+        box-shadow: 1px 1px 10px black;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    footer p {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+}
