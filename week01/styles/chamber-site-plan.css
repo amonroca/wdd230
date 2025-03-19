@@ -1,0 +1,145 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333333; /* Cor do texto para o corpo */
+    background-color: #FFFFFF; /* Fundo principal do corpo do site */
+}
+header, footer {
+    background-color: #00539F; /* Fundo principal para cabeçalhos e rodapés */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+header h1, footer h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF; /* Cor do texto para cabeçalhos */
+}
+section {
+    margin: 20px 0;
+    background-color: #FFFFFF; /* Fundo para seções */
+    padding: 20px;
+    border-radius: 5px;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00539F; /* Cor do texto para cabeçalhos */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/*li {
+    background-color: #D9D9D9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}*/
+.desktop {
+    width: 50%;
+    border-radius: 5px;
+}
+.mobile {
+    width: 25%;
+    border-radius: 5px;
+}
+/* Adicionando estilos para o esquema de cores e tipografia */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #00539F; /* Fundo da barra de navegação */
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+button, .cta {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: #00539F; /* Botões principais */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover, .cta:hover {
+    background-color: #FFC107; /* Amarelo */
+}
+footer {
+    background-color: #00539F; /* Fundo do rodapé */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+footer a {
+    color: #FFC107; /* Amarelo */
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a paleta de cores */
+.color-palette {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.color-swatch {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.color-swatch p {
+    margin: 5px 0 0 0;
+}
+.color-swatch.blue {
+    background-color: #00539F;
+}
+.color-swatch.white {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000;
+}
+.color-swatch.light-gray {
+    background-color: #D9D9D9;
+    color: #000000;
+}
+.color-swatch.green {
+    background-color: #4CAF50;
+}
+.color-swatch.yellow {
+    background-color: #FFC107;
+    color: #000000;
+}
+.color-swatch.dark-gray {
+    background-color: #333333;
+}
+.regular-card {
+    background-color: #D9D9D9; /* Fundo para itens de lista */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
