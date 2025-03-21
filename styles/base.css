@@ -62,20 +62,19 @@ h1 {
     text-align: center;
 }
 
-nav {
-    background-color: #154e13;
-}
-
 nav ul {
     list-style-type: none;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 nav a {
-    display: block;
     color: #fff;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
+    display: none;
+	padding: .5rem;
+	text-align: center;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -106,4 +105,38 @@ footer span {
 .flag span {
     align-content: center;
     padding: 0 .25rem 0 0;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+    background-color: #154e13;
+}
+
+.open a {
+	display: block;
+}
+
+#mode {
+	position: absolute;
+	top: 3rem;
+	right: .5rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
 }

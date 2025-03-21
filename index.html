@@ -14,9 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normaliza.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/normaliza.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -24,8 +24,10 @@
         <img src="images/Foto_3x4.png" alt="Amon's picture" width="75" height="100">
         <span>Amon G. Roca</span>
     </header>
+    <button id="menu"></button>
+    <div id="mode">🕶️</div>
     <nav>
-        <ul>
+        <ul class="navigation">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
@@ -35,7 +37,7 @@
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="parent">
-            <section>
+            <section id="activities">
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>
@@ -64,7 +66,7 @@
                     </li>
                 </ul>
             </section>
-            <section>
+            <section id="information">
                 <h2>Information</h2>
                 <p>São Paulo, Brazil</p>
                 <p>76°F - Sunshine</p>
@@ -86,5 +88,7 @@
         <span id="lastModified"></span>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/mode.js"></script>
 </body>
 </html>
