@@ -20,7 +20,6 @@ function deleteChapter(chapter) {
     const index = chaptersArray.indexOf(chapter);
     if (index > -1) {
         chaptersArray.splice(index, 1);
-        console.log('Updated chapters array:', chaptersArray);
         setChapterList();
     }
 }
@@ -36,8 +35,6 @@ function displayList(item) {
     list.append(li);
 
     deleteButton.addEventListener('click', () => {
-        console.log('Delete button clicked for:', item);
-        console.log('List item to remove:', li);
         list.removeChild(li);
         deleteChapter(item);
         input.focus();
