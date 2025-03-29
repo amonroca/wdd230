@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <img src="images/Foto_3x4.png" alt="Amon's picture" width="75" height="100">
+        <img src="images/Foto_3x4.webp" alt="Amon's picture" width="75" height="100" loading="lazy">
         <span>Amon G. Roca</span>
     </header>
     <button id="menu"></button>
@@ -35,34 +35,50 @@
         </ul>
     </nav>
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="hero">
+            <picture>
+                <source srcset="images/sao_paulo_brazil_temple_lds_small.webp" media="(max-width: 650px)">
+                <img src="images/sao_paulo_brazil_temple_lds_large.webp" alt="São Paulo Brazil Temple" width="960" height="600" loading="lazy">
+            </picture>
+            <div class="hero-overlay">
+                São Paulo Brazil Temple
+            </div>
+        </section>
+        <h1>WDD 230 - Web Frontend Development</h1>
         <div class="parent">
             <section id="activities">
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>
                         Week 01: 
-                        <a href="https://amonroca.github.io/wdd230/week01/holygrail.html">Layout</a> |  <a href="https://amonroca.github.io/wdd230/week01/media-query.html">Media Query</a> |  <a href="https://codepen.io/amonroca/pen/BaEbLPZ">JS Pen</a>
+                        <a href="https://amonroca.github.io/wdd230/week01/holygrail.html">Layout</a> |  
+                        <a href="https://amonroca.github.io/wdd230/week01/media-query.html">Media Query</a> |  
+                        <a href="https://codepen.io/amonroca/pen/BaEbLPZ">JS Pen</a>
                     </li>
                     <li>
                         Week 02: 
-                        <a href="https://amonroca.github.io/wdd230/week02/design.html">Design Principles</a> | <a href="https://codepen.io/amonroca/pen/xbxWzeZ">Responsive Menu</a> | <a href="https://amonroca.github.io/wdd230/week02/bom.html">BOM</a>
+                        <a href="https://amonroca.github.io/wdd230/week02/design.html">Design Principles</a> | 
+                        <a href="https://codepen.io/amonroca/pen/xbxWzeZ">Responsive Menu</a> | 
+                        <a href="https://amonroca.github.io/wdd230/week02/bom.html">BOM</a>
                     </li>
                     <li>
                         Week 03: 
-                        <a href="week03/images/landscape.webp">WebP</a> | <a href="https://amonroca.github.io/wdd230/week03/lazyloadhtml">Lazyload</a> | <a href="https://amonroca.github.io/wdd230/week03/responsive-images.html">Responsive Images</a> | <a href="https://amonroca.github.io/wdd230/week03/bom.html">Local Storage</a>
+                        <a href="week03/images/landscape.webp">WebP</a> | 
+                        <a href="https://amonroca.github.io/wdd230/week03/lazyloadhtml">Lazyload</a> | 
+                        <a href="https://amonroca.github.io/wdd230/week03/responsive-images.html">Responsive Images</a> | 
+                        <a href="https://amonroca.github.io/wdd230/week03/bom.html">Local Storage</a>
                     </li>
                     <li>
                         Week 04: 
-                        <a href=""></a>
+                        <a href="#">#</a>
                     </li>
                     <li>
                         Week 05: 
-                        <a href=""></a>
+                        <a href="#">#</a>
                     </li>
                     <li>
                         Week 06: 
-                        <a href=""></a>
+                        <a href="#">#</a>
                     </li>
                 </ul>
             </section>
@@ -70,9 +86,20 @@
                 <h2>Information</h2>
                 <p>São Paulo, Brazil</p>
                 <p>76°F - Sunshine</p>
-                <p>Page Visits: 15</p>
+                <p>Page Visits: <span id="visit-counter">0</span></p>
             </section>
         </div>
+        <section class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9767728204256!2d-46.797565224572764!3d-23.56927767879444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce557c95feeb17%3A0x3f4247edb89c73b!2sR.%20J%C3%BAlio%20Cortazar%2C%2041%20-%20Novo%20Osasco%2C%20Osasco%20-%20SP%2C%2006142-030!5e0!3m2!1spt-BR!2sbr!4v1743287880445!5m2!1spt-BR!2sbr" 
+                width="800" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
     </main>
     <footer>
         <p>
@@ -81,7 +108,7 @@
             <span class="flag">
                 <span>Brazil</span>
                 <span>
-                    <img src="images/brazil-flag.png" alt="Brazil flag" width="40" height="40">
+                    <img src="images/brazil-flag.webp" alt="Brazil flag" width="40" height="40" loading="lazy">
                 </span>
             </span>
         </p>
@@ -90,5 +117,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/mode.js"></script>
+    <script src="scripts/visit-counter.js"></script>
 </body>
 </html>

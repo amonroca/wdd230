@@ -48,4 +48,8 @@
         right: 1rem;
     }
 
+    .map iframe {
+        height: 400px;
+    }
+
 }
