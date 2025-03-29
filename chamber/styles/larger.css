@@ -49,6 +49,7 @@
 
     .weather {
         width: 85vw;
+        margin-top: 4rem;
     }
 
     .weather-details {
@@ -85,7 +86,7 @@
     }
     
     .newsletter button {
-        max-width: auto;
+        max-width: fit-content;
         width: auto;
     }
 
