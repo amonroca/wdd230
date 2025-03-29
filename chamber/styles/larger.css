@@ -14,7 +14,7 @@
     nav a {
         display: block;
         flex: 1 1 100%;
-        color: #007BFF;
+        color: #00539F;
     }
 
     nav a:hover {
@@ -77,6 +77,41 @@
     .contact {
         text-align: left;
         display: block;
+    }
+
+    .newsletter input {
+        max-width: 300px;
+        width: 300px;
+    }
+    
+    .newsletter button {
+        max-width: auto;
+        width: auto;
+    }
+
+    .quick-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        display: block;
+    }
+
+    .quick-links li {
+        padding: 5px 0;
+    }
+    
+    .quick-links li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #quick-links {
+        display: block;
+    }
+
+    .footer-container {
+        justify-content: space-around;
     }
 
 }
