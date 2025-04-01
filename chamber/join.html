@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Chamber of Commerce</title>
+    <meta name="description" content="Join the Osasco Chamber of Commerce and grow your business with exclusive benefits.">
+    <meta name="author" content="Amon Roca">
+    <link rel="stylesheet" href="styles/custom-normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div>Osasco Chamber of Commerce</div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join the Chamber of Commerce</h1>
+        <div class="form-container">
+            <!-- Form Section -->
+            <form action="thankyou.html" method="get">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="title">Title/Position:</label>
+                <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" 
+                       title="Title must be at least 7 characters long and contain only letters, hyphens, and spaces.">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="organization">Business/Organization Name:</label>
+                <input type="text" id="organization" name="organization" required>
+
+                <label for="membership-level">Membership Level:</label>
+                <select id="membership-level" name="membership-level" required>
+                    <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description" rows="5"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                <button type="submit">Submit Application</button>
+            </form>
+
+            <!-- Membership Benefits Section -->
+            <aside class="membership-benefits">
+                <h2>Membership Benefits</h2>
+                <ul>
+                    <li><strong>NP Membership:</strong> Access to community events.</li>
+                    <li><strong>Bronze Membership:</strong> Includes NP benefits + basic advertising.</li>
+                    <li><strong>Silver Membership:</strong> Includes Bronze benefits + event discounts.</li>
+                    <li><strong>Gold Membership:</strong> Includes Silver benefits + premium advertising.</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <span id="year"></span> 
+            <span>Chamber of Commerce. All rights reserved.</span><br><br>
+            <span>Amon Roca - WDD230</span>
+        </p>
+    </footer>
+    <script>
+        // Set the current timestamp in the hidden input field
+        document.getElementById('timestamp').value = new Date().toISOString();
+    </script>
+</body>
+</html>

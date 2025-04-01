@@ -133,4 +133,8 @@
         opacity: 1; /* Totalmente visível ao passar o mouse */
         transform: scale(1.05); /* Leve aumento no tamanho */
     }
+
+    .form-container {
+        grid-template-columns: 2fr 1fr; /* Formulário e benefícios lado a lado */
+    }
 }
