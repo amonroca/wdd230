@@ -41,86 +41,55 @@
                 <img src="images/hero-image.webp" alt="Chamber of Commerce of Osasco">
             </div>
             <section class="hero">
-                <h1>Osasco Chamber of Commerce: Growing Business <br>Together in Our Community</h1>
+                <h1>Discover Osasco</h1>
                 <p>Join our network of successful businesses and entrepreneurs. Connect, grow, and thrive<br> together.</p>
-                <button class="btn-white">Become a Member</button>
-                <button class="btn-blue">Learn More</button>
+                <!--<button class="btn-white">Become a Member</button>
+                <button class="btn-blue">Learn More</button>-->
             </section>
         </div>
-        <div class="weather">
-            <div>
-                <h2>Today's Weather</h2>
-                <p>Osasco, São Paulo</p>
-            </div>
-            <div class="weather-details">
-                <div>
-                    <p>Morning</p>
-                    <h4>65°F</h4>
+        <div class="grid-container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h2>Welcome Message</h2>
+                <p id="visit-message">Welcome! Let us know if you have any questions.</p>
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Business Networking - July 15</li>
+                    <li>Community Cleanup - July 20</li>
+                    <li>Annual Gala - August 5</li>
+                </ul>
+            </aside>
+            <!-- Main Content -->
+            <section class="gallery">
+                <h2>Local Attractions</h2>
+                <div class="image-grid">
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 1" loading="lazy">
+                        <figcaption>Attraction 1</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 2" loading="lazy">
+                        <figcaption>Attraction 2</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 3" loading="lazy">
+                        <figcaption>Attraction 3</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 4" loading="lazy">
+                        <figcaption>Attraction 4</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 5" loading="lazy">
+                        <figcaption>Attraction 5</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://placehold.co/600x400.webp" alt="Attraction 6" loading="lazy">
+                        <figcaption>Attraction 6</figcaption>
+                    </figure>
                 </div>
-                <div>
-                    <p>Afternoon</p>
-                    <h4>72°F</h4>
-                </div>
-                <div>
-                    <p>Evening</p>
-                    <h4>68°F</h4>
-                </div>
-                <div>
-                    <p>Night</p>
-                    <h4>62°F</h4>
-                </div>
-            </div>
-            <div>
-                <h2>72°F</h2>
-                <p>Partly Cloudy</p>
-            </div>
+            </section>
         </div>
-        <h2 id="upcoming-events">Upcoming Events</h2>
-        <section class="events-container">
-            <div class="event">
-                <h3>Business Networking Breakfast</h3>
-                <p>Join us for our monthly networking breakfast with guest speakers.</p>
-                <p class="date">Mar 15, 2025</p>
-            </div>
-            <div class="event">
-                <h3>Annual Business Awards</h3>
-                <p>Celebrating excellence in our business community.</p>
-                <p class="date">Apr 20, 2025</p>
-            </div>
-            <div class="event">
-                <h3>Small Business Workshop</h3>
-                <p>Essential strategies for small business growth and success.</p>
-                <p class="date">May 10, 2025</p>
-            </div>
-        </section>
-        <section class="companies-container">
-            <h2>Featured Companies</h2>
-            <div class="companies">
-                <div class="company">
-                    <img src="images/tech-solutions-inc.webp" alt="Tech Solutions Inc.">
-                    <h3>Tech Solutions Inc.</h3>
-                    <p>Leading provider of innovative technology solutions for enterprise business.</p>
-                </div>
-                <div class="company">
-                    <img src="images/global-finance-corp.webp" alt="Global Finance Corp">
-                    <h3>Global Finance Corp</h3>
-                    <p>Expert financial services and consulting for international markets.</p>
-                </div>
-                <div class="company">
-                    <img src="images/green-energy-solutions.webp" alt="Green Energy Solutions">
-                    <h3>Green Energy Solutions</h3>
-                    <p>Sustainable and renewable energy solutions for a better tomorrow.</p>
-                </div>
-            </div>
-        </section>
-        <section class="newsletter">
-            <h2>Stay Connected</h2>
-            <p>Subscribe to oue newsletter for the latest updates, events, and business resources.</p>
-            <form>
-                <input type="email" placeholder="Enter your email address">
-                <button class="btn-white">Subscribe</button>
-            </form>
-        </section>
     </main>
     <footer>
         <section class="footer-container">
@@ -160,5 +129,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/visit.js"></script>
 </body>
 </html>

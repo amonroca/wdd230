@@ -40,7 +40,7 @@
     }
 
     .image-container img {
-        height: 620px
+        height: 620px;
     }
     
     .image-shadow {
@@ -115,4 +115,22 @@
         justify-content: space-around;
     }
 
+    .grid-container {
+        grid-template-columns: 1fr 3fr; /* Sidebar e conteúdo principal */
+        margin-top: 240px;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr); /* Três colunas no desktop */
+    }
+
+    .image-grid img {
+        opacity: 0.8; /* Efeito de opacidade */
+        transition: transform 0.3s ease, opacity 0.3s ease; /* Transição suave */
+    }
+
+    .image-grid img:hover {
+        opacity: 1; /* Totalmente visível ao passar o mouse */
+        transform: scale(1.05); /* Leve aumento no tamanho */
+    }
 }
