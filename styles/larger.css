@@ -52,4 +52,7 @@
         height: 400px;
     }
 
+    #current-temp {
+        font-size: .9rem;
+    }
 }

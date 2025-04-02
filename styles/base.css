@@ -34,7 +34,7 @@ h1 {
 }
 
 .parent {
-    margin: 0 2vw 0rem 2vw;
+    margin: 0 2vw;
 }
 
 .parent section {
@@ -181,4 +181,6 @@ footer span {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #415541;
+    color: #fff;
 }
