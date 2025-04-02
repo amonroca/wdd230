@@ -176,3 +176,9 @@ footer span {
     height: 300px;
     border: 0;
 }
+
+#weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
