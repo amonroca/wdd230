@@ -27,8 +27,8 @@
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,54 +38,90 @@
         <div>
             <div class="image-shadow"></div>
             <div class="image-container">
-                <img src="images/hero-image.webp" alt="Chamber of Commerce of Osasco">
+                <img src="images/hero-image-discover.webp" alt="Chamber of Commerce of Osasco">
             </div>
             <section class="hero">
                 <h1>Discover Osasco</h1>
-                <p>Join our network of successful businesses and entrepreneurs. Connect, grow, and thrive<br> together.</p>
-                <!--<button class="btn-white">Become a Member</button>
-                <button class="btn-blue">Learn More</button>-->
+                <p>Discover. Connect. Thrive—For Businesses and Beyond.</p>
             </section>
         </div>
         <div class="grid-container">
-            <!-- Sidebar -->
             <aside class="sidebar">
                 <h2>Welcome Message</h2>
                 <p id="visit-message">Welcome! Let us know if you have any questions.</p>
-                <h2>Upcoming Events</h2>
-                <ul>
-                    <li>Business Networking - July 15</li>
-                    <li>Community Cleanup - July 20</li>
-                    <li>Annual Gala - August 5</li>
-                </ul>
+                <div class="event-calendar">
+                    <h2>Local Events</h2>
+                    <div class="local-event">
+                        <h3>Cultural Fair at Calçadão de Osasco</h3>
+                        <p><strong>Date/Time:</strong> Saturday, April 6th, 2025, from 10:00 AM to 6:00 PM</p>
+                        <p><strong>Location:</strong> Calçadão de Osasco, Centro, Osasco-SP</p>
+                    </div>
+                    <div class="local-event">
+                        <h3>Art in the Park: Painting Workshop</h3>
+                        <p><strong>Date/Time:</strong> Sunday, April 13th, 2025, from 2:00 PM to 5:00 PM</p>
+                        <p><strong>Location:</strong> Parque Municipal Chico Mendes, Osasco-SP</p>
+                    </div>
+                    <div class="local-event">
+                        <h3>Osasco Food Festival</h3>
+                        <p><strong>Date/Time:</strong> Friday, April 20th, 2025, from 5:00 PM to 10:00 PM</p>
+                        <p><strong>Location:</strong> Praça Antônio Menck, Osasco-SP</p>
+                    </div>
+                    <div class="local-event">
+                        <h3>Family Fun Run and Walk</h3>
+                        <p><strong>Date/Time:</strong> Saturday, April 27th, 2025, starting at 8:00 AM</p>
+                        <p><strong>Location:</strong> Avenida dos Autonomistas, Osasco-SP</p>
+                    </div>
+                    <div class="local-event">
+                        <h3>Music Under the Stars: Live Jazz Night</h3>
+                        <p><strong>Date/Time:</strong> Thursday, May 1st, 2025, from 7:00 PM to 9:30 PM</p>
+                        <p><strong>Location:</strong> Teatro Municipal de Osasco, Osasco-SP</p>
+                    </div>
+                </div>
+                <div class="weather-card">
+                    <h2>Current Weather</h2>
+                    <div class="weather-info">
+                        <img id="weather-icon" src="" alt="Weather icon" loading="lazy">
+                        <p id="current-temp">--°F</p>
+                    </div>
+                    <p id="weather-desc">Loading...</p>
+                    <p id="location">Osasco, SP</p>
+                </div>
+                <div class="useful-links-card">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="https://www.osasco.sp.gov.br/" target="_blank">Osasco City Hall</a></li>
+                        <li><a href="https://www.cptm.sp.gov.br/" target="_blank">CPTM - Public Transport</a></li>
+                        <li><a href="https://www.sescsp.org.br/" target="_blank">SESC Osasco</a></li>
+                        <li><a href="https://www.unifieo.br/" target="_blank">UNIFIEO - University Center</a></li>
+                    </ul>
+                </div>
             </aside>
-            <!-- Main Content -->
             <section class="gallery">
                 <h2>Local Attractions</h2>
                 <div class="image-grid">
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 1" loading="lazy">
-                        <figcaption>Attraction 1</figcaption>
+                        <img src="images/parque-chico-mendes.webp" alt="Attraction 1" width="600" height="400" loading="lazy">
+                        <figcaption>Parque Chico Mendes</figcaption>
                     </figure>
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 2" loading="lazy">
-                        <figcaption>Attraction 2</figcaption>
+                        <img src="images/catedral-de-osasco.webp" alt="Attraction 2" width="600" height="400" loading="lazy">
+                        <figcaption>Catedral de Santo Antonio</figcaption>
                     </figure>
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 3" loading="lazy">
-                        <figcaption>Attraction 3</figcaption>
+                        <img src="images/borboletario-osasco.webp" alt="Attraction 3" width="600" height="400" loading="lazy">
+                        <figcaption>Borboletario de Osasco</figcaption>
                     </figure>
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 4" loading="lazy">
-                        <figcaption>Attraction 4</figcaption>
+                        <img src="images/ponte-metalica.webp" alt="Attraction 4" width="600" height="400" loading="lazy">
+                        <figcaption>Ponte Metalica</figcaption>
                     </figure>
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 5" loading="lazy">
-                        <figcaption>Attraction 5</figcaption>
+                        <img src="images/museu-historico.webp" alt="Attraction 5" width="600" height="400" loading="lazy">
+                        <figcaption>Museu Historico Bradesco</figcaption>
                     </figure>
                     <figure>
-                        <img src="https://placehold.co/600x400.webp" alt="Attraction 6" loading="lazy">
-                        <figcaption>Attraction 6</figcaption>
+                        <img src="images/shopping-osasco.webp" alt="Attraction 6" width="600" height="400" loading="lazy">
+                        <figcaption>Shopping União de Osasco</figcaption>
                     </figure>
                 </div>
             </section>
@@ -97,8 +133,8 @@
                 <h3 id="quick-links">Quick Links</h3>
                 <ul class="quick-links">
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                 </ul>
             </div>
             <div class="contact">
@@ -130,5 +166,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/visit.js"></script>
+    <script src="scripts/weather-api.js"></script>
 </body>
 </html>

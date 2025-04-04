@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tech Solutions",
+        "address": "123 Tech Street, Osasco, SP",
+        "phone": "(11) 1234-5678",
+        "website": "https://techsolutions.com",
+        "image": "images/tech-solutions.png",
+        "membership": "Gold",
+        "description": "Innovative technology solutions for businesses."
+    },
+    {
+        "name": "Green Earth",
+        "address": "456 Eco Avenue, Osasco, SP",
+        "phone": "(11) 8765-4321",
+        "website": "https://greenearth.com",
+        "image": "images/green-earth.png",
+        "membership": "Silver",
+        "description": "Sustainable solutions for a better planet."
+    },
+    {
+        "name": "Osasco Bakery",
+        "address": "789 Bread Lane, Osasco, SP",
+        "phone": "(11) 5555-1234",
+        "website": "https://osascobakery.com",
+        "image": "images/osasco-bakery.png",
+        "membership": "Bronze",
+        "description": "Freshly baked goods every day."
+    },
+    {
+        "name": "Fitness Pro",
+        "address": "321 Gym Road, Osasco, SP",
+        "phone": "(11) 4444-5678",
+        "website": "https://fitnesspro.com",
+        "image": "images/fitness-pro.png",
+        "membership": "Gold",
+        "description": "Your partner in health and fitness."
+    },
+    {
+        "name": "Creative Studio",
+        "address": "654 Art Street, Osasco, SP",
+        "phone": "(11) 3333-8765",
+        "website": "https://creativestudio.com",
+        "image": "images/creative-studio.png",
+        "membership": "Silver",
+        "description": "Design and branding solutions for your business."
+    },
+    {
+        "name": "Eco Transport",
+        "address": "987 Greenway, Osasco, SP",
+        "phone": "(11) 2222-1234",
+        "website": "https://ecotransport.com",
+        "image": "images/eco-transport.png",
+        "membership": "Bronze",
+        "description": "Eco-friendly transportation services."
+    },
+    {
+        "name": "Osasco Coffee",
+        "address": "159 Coffee Lane, Osasco, SP",
+        "phone": "(11) 1111-5678",
+        "website": "https://osascocoffee.com",
+        "image": "images/osasco-coffee.png",
+        "membership": "Gold",
+        "description": "The best coffee in town."
+    }
+]

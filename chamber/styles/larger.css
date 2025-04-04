@@ -26,25 +26,59 @@
     }
 
     .hero {
-        padding: 100px 20px;
         text-align: left;
+    }
+
+    #hero-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        padding: 0;
+        margin: 20px;
+        color: white;
+        width: 90vw;
+        height: 390px;
     }
     
     .hero h1 {
         font-size: 42px;
-        margin-bottom: 20px;
+    }
+
+    #hero-home h1 {
+        font-size: 42px;
     }
 
     .hero p {
         display: block;
     }
 
-    .image-container img {
+    #hero-home p {
+        display: block;
+    }
+
+    .image-container #home-hero-image {
         height: 620px;
     }
     
-    .image-shadow {
+    #home-image-shadow {
         height: 620px;
+    }
+
+    #btn-blue-home {
+        display: block;
+    }
+
+    .button-container {
+        display: flex; /* Usa Flexbox para alinhar os botões lado a lado */
+        gap: 10px; /* Espaçamento entre os botões */
+        justify-content: flex-start; /* Alinha os botões à esquerda */
+        margin-top: 20px; /* Espaçamento superior opcional */
+    }
+    
+    .button-container button {
+        flex: 0 1 auto; /* Garante que os botões mantenham seu tamanho padrão */
     }
 
     .weather {
@@ -116,25 +150,27 @@
     }
 
     .grid-container {
-        grid-template-columns: 1fr 3fr; /* Sidebar e conteúdo principal */
-        margin-top: 240px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 20px;
+        align-items: start;
     }
 
     .image-grid {
-        grid-template-columns: repeat(1, 1fr); /* Três colunas no desktop */
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .image-grid img {
-        opacity: 0.8; /* Efeito de opacidade */
-        transition: transform 0.3s ease, opacity 0.3s ease; /* Transição suave */
+        opacity: 0.8;
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .image-grid img:hover {
-        opacity: 1; /* Totalmente visível ao passar o mouse */
-        transform: scale(1.05); /* Leve aumento no tamanho */
+        opacity: 1;
+        transform: scale(1.03);
     }
 
     .form-container {
-        grid-template-columns: 2fr 1fr; /* Formulário e benefícios lado a lado */
+        grid-template-columns: 2fr 1fr;
     }
 }

@@ -27,8 +27,8 @@
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,15 +36,17 @@
     <button id="menu"></button>
     <main>
         <div>
-            <div class="image-shadow"></div>
+            <div id="home-image-shadow"></div>
             <div class="image-container">
-                <img src="images/hero-image.webp" alt="Chamber of Commerce of Osasco">
+                <img id="home-hero-image" src="images/hero-image.webp" alt="Chamber of Commerce of Osasco">
             </div>
-            <section class="hero">
+            <section id="hero-home">
                 <h1>Osasco Chamber of Commerce: Growing Business <br>Together in Our Community</h1>
                 <p>Join our network of successful businesses and entrepreneurs. Connect, grow, and thrive<br> together.</p>
-                <button class="btn-white">Become a Member</button>
-                <button class="btn-blue">Learn More</button>
+                <div class="button-container">
+                    <button class="btn-white">Become a Member</button>
+                    <button class="btn-blue" id="btn-blue-home">Learn More</button>
+                </div>
             </section>
         </div>
         <div class="weather">
