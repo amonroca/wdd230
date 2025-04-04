@@ -23,11 +23,20 @@
             </ul>
         </nav>
     </header>
+    <button id="menu"></button>
     <main>
-        <h1>Join the Chamber of Commerce</h1>
+        <div>
+            <div class="image-shadow"></div>
+            <div class="image-container">
+                <img src="images/hero-image-discover.webp" alt="Chamber of Commerce of Osasco">
+            </div>
+            <section class="hero">
+                <h1>Join the Chamber of Commerce</h1>
+                <p>Unlock exclusive benefits, connect with local businesses, and access resources.</p>
+            </section>
+        </div>
         <div class="form-container">
-            <!-- Form Section -->
-            <form action="thankyou.html" method="get">
+            <form action="thankyou.html" method="get" class="join-form">
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" name="first-name" required>
 
@@ -61,9 +70,10 @@
                 <input type="hidden" id="timestamp" name="timestamp" value="">
                 <button type="submit">Submit Application</button>
             </form>
-
-            <!-- Membership Benefits Section -->
             <aside class="membership-benefits">
+                <h2>Membership Application</h2>
+                <p>Fill out the form to apply for membership. We will review your application and get back to you shortly.</p>
+                <hr>
                 <h2>Membership Benefits</h2>
                 <ul>
                     <li><strong>NP Membership:</strong> Access to community events.</li>
@@ -75,15 +85,43 @@
         </div>
     </main>
     <footer>
+        <section class="footer-container">
+            <div>
+                <h3 id="quick-links">Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <address>
+                    <p>123 Chamber Way</p>
+                    <p>Osasco, SP 12345</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@chamber.org</p>
+                </address>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <ul class="social-media">
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
         <p>
             <span id="year"></span> 
             <span>Chamber of Commerce. All rights reserved.</span><br><br>
             <span>Amon Roca - WDD230</span>
         </p>
+        <span id="lastModified"></span>
     </footer>
-    <script>
-        // Set the current timestamp in the hidden input field
-        document.getElementById('timestamp').value = new Date().toISOString();
-    </script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/application-form.js"></script>
 </body>
 </html>

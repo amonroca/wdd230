@@ -71,14 +71,14 @@
     }
 
     .button-container {
-        display: flex; /* Usa Flexbox para alinhar os botões lado a lado */
-        gap: 10px; /* Espaçamento entre os botões */
-        justify-content: flex-start; /* Alinha os botões à esquerda */
-        margin-top: 20px; /* Espaçamento superior opcional */
+        display: flex; 
+        gap: 10px;
+        justify-content: flex-start;
+        margin-top: 20px;
     }
     
     .button-container button {
-        flex: 0 1 auto; /* Garante que os botões mantenham seu tamanho padrão */
+        flex: 0 1 auto;
     }
 
     .weather {
@@ -172,5 +172,19 @@
 
     .form-container {
         grid-template-columns: 2fr 1fr;
+    }
+
+    .join-form button {
+        display: block;
+        margin: auto;
+        width: 15rem;
+    }
+
+    .form-data-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-data-card h2 {
+        grid-column: span 2;
     }
 }

@@ -23,18 +23,71 @@
             </ul>
         </nav>
     </header>
+    <button id="menu"></button>
     <main>
-        <h1>Thank You for Joining!</h1>
-        <p>We appreciate your interest in becoming a member of the Osasco Chamber of Commerce.</p>
-        <p>Our team will review your application and get in touch with you shortly.</p>
-        <a href="index.html" class="btn-blue">Return to Home</a>
+        <div>
+            <div class="image-shadow"></div>
+            <div class="image-container">
+                <img src="images/hero-image-discover.webp" alt="Chamber of Commerce of Osasco">
+            </div>
+            <section class="hero">
+                <h1>Thank You for Joining!</h1>
+                <p>We appreciate your interest in becoming a member.</p>
+            </section>
+        </div>
+        <div class="form-data-card">
+            <h2>Your Submitted Information</h2>
+            <div class="form-data-grid">
+                <p><strong>First Name:</strong> <span id="first-name"></span></p>
+                <p><strong>Last Name:</strong> <span id="last-name"></span></p>
+                <p><strong>Title/Position:</strong> <span id="title"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Mobile Phone:</strong> <span id="phone"></span></p>
+                <p><strong>Business/Organization Name:</strong> <span id="organization"></span></p>
+                <p><strong>Membership Level:</strong> <span id="membership-level"></span></p>
+                <p><strong>Business/Organization Description:</strong> <span id="description"></span></p>
+                <p><strong>Submitted At:</strong> <span id="timestamp"></span></p>
+            </div>
+        </div>
     </main>
     <footer>
+        <section class="footer-container">
+            <div>
+                <h3 id="quick-links">Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <address>
+                    <p>123 Chamber Way</p>
+                    <p>Osasco, SP 12345</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@chamber.org</p>
+                </address>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <ul class="social-media">
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
+        <hr>
         <p>
             <span id="year"></span> 
             <span>Chamber of Commerce. All rights reserved.</span><br><br>
             <span>Amon Roca - WDD230</span>
         </p>
+        <span id="lastModified"></span>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/thankyou.js"></script>
 </body>
 </html>
