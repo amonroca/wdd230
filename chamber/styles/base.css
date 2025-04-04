@@ -457,6 +457,14 @@ footer {
     border-left: solid 8px #9c2c13;
 }
 
+.join-form select:required:valid {
+    border-left: solid 8px #2c9c13;
+}
+
+.join-form select:required:invalid {
+    border-left: solid 8px #9c2c13;
+}
+
 #directory-container {
     display: grid;
     gap: 20px;
