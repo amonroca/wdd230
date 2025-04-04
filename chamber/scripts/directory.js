@@ -25,10 +25,10 @@ const displayDirectory = (companies) => {
             const card = document.createElement("section");
             card.classList.add("directory-card");
 
-            const img = document.createElement("img");
+            /*const img = document.createElement("img");
             img.setAttribute("src", company.image);
             img.setAttribute("alt", `${company.name} logo`);
-            img.setAttribute("loading", "lazy");
+            img.setAttribute("loading", "lazy");*/
 
             const name = document.createElement("h2");
             name.textContent = company.name;
