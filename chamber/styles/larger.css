@@ -187,4 +187,12 @@
     .form-data-card h2 {
         grid-column: span 2;
     }
+
+    table {
+        width: 100%;
+    }
+
+    #directory-container {
+        padding: 20px;
+    }
 }

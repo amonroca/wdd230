@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce of Osasco</title>
-    <meta name="description" content="Osasco Chamber of Commerce - Growing Business Together in Our Community">
+    <title>Business Directory | Osasco Chamber of Commerce</title>
+    <meta name="description" content="Explore the Osasco Chamber of Commerce Business Directory to connect with local businesses, discover services, and grow your network in Osasco-SP.">
     <meta name="author" content="Amon Roca">
-    <meta property="og:title" content="Chamber of Commerce of Osasco">
-    <meta property="og:description" content="Osasco Chamber of Commerce - Growing Business Together in Our Community">
-    <meta property="og:image" content="https://osasco.sp.gov.br/wp-content/uploads/2022/12/meu-projeto-5.jpg">
-    <meta property="og:url" content="https://amonroca.github.io/wdd230/chamber/">
+    <meta property="og:title" content="Business Directory | Osasco Chamber of Commerce">
+    <meta property="og:description" content="Find and connect with local businesses in Osasco-SP through the Osasco Chamber of Commerce Business Directory.">
+    <meta property="og:image" content="images/hero-image-discover.webp">
+    <meta property="og:url" content="https://amonroca.github.io/wdd230/chamber/directory.html">
     <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/custom-normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -27,18 +28,31 @@
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <button id="menu"></button>
     <main>
-        <h1>Business Directory</h1>
+        <div>
+            <div class="image-shadow"></div>
+            <div class="image-container">
+                <img src="images/hero-image-discover.webp" alt="Chamber of Commerce of Osasco">
+            </div>
+            <section class="hero">
+                <h1>Business Directory</h1>
+                <p>Browse our comprehensive directory to discover local businesses</p>
+            </section>
+        </div>
         <div class="view-toggle">
-            <button id="grid-view">Grid View</button>
-            <button id="list-view">List View</button>
+            <button id="grid-view" aria-label="Grid View">
+                <i class="fas fa-th"></i>
+            </button>
+            <button id="list-view" aria-label="List View">
+                <i class="fas fa-list"></i>
+            </button>
         </div>
         <div id="directory-container" class="grid-view"></div>
     </main>
@@ -48,8 +62,8 @@
                 <h3 id="quick-links">Quick Links</h3>
                 <ul class="quick-links">
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                 </ul>
             </div>
             <div class="contact">

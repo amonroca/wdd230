@@ -18,7 +18,7 @@ const getDirectoryData = async () => {
 };
 
 const displayDirectory = (companies) => {
-    directoryContainer.innerHTML = ""; // Limpa o contêiner
+    directoryContainer.innerHTML = "";
 
     if (directoryContainer.classList.contains("grid-view")) {
         companies.forEach((company) => {
@@ -47,7 +47,7 @@ const displayDirectory = (companies) => {
             const membership = document.createElement("p");
             membership.textContent = `Membership Level: ${company.membership}`;
 
-            card.appendChild(img);
+            // card.appendChild(img);
             card.appendChild(name);
             card.appendChild(address);
             card.appendChild(phone);
@@ -61,7 +61,6 @@ const displayDirectory = (companies) => {
         const thead = document.createElement("thead");
         const tbody = document.createElement("tbody");
 
-        // Cabeçalho da tabela
         thead.innerHTML = `
             <tr>
                 <th>Name</th>
@@ -71,8 +70,6 @@ const displayDirectory = (companies) => {
                 <th>Membership</th>
             </tr>
         `;
-
-        // Linhas da tabela
         companies.forEach((company) => {
             const row = document.createElement("tr");
 
@@ -110,17 +107,16 @@ const displayDirectory = (companies) => {
     }
 };
 
-// Alternar entre modos de exibição
 gridViewButton.addEventListener("click", () => {
     directoryContainer.classList.add("grid-view");
     directoryContainer.classList.remove("list-view");
-    getDirectoryData(); // Atualiza a exibição
+    getDirectoryData();
 });
 
 listViewButton.addEventListener("click", () => {
     directoryContainer.classList.add("list-view");
     directoryContainer.classList.remove("grid-view");
-    getDirectoryData(); // Atualiza a exibição
+    getDirectoryData();
 });
 
 getDirectoryData();
