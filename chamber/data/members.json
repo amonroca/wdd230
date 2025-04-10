@@ -61,5 +61,77 @@
         "image": "images/osasco-coffee.png",
         "membership": "Gold",
         "description": "The best coffee in town."
+    },
+    {
+        "name": "Bright Future Education",
+        "address": "101 Knowledge Blvd, Osasco, SP",
+        "phone": "(11) 9999-1234",
+        "website": "https://brightfutureedu.com",
+        "image": "images/bright-future-education.png",
+        "membership": "Silver",
+        "description": "Empowering students with quality education and resources."
+    },
+    {
+        "name": "Urban Style",
+        "address": "202 Fashion Avenue, Osasco, SP",
+        "phone": "(11) 8888-5678",
+        "website": "https://urbanstyle.com",
+        "image": "images/urban-style.png",
+        "membership": "Bronze",
+        "description": "Trendy clothing and accessories for all ages."
+    },
+    {
+        "name": "Healthy Life Clinic",
+        "address": "303 Wellness Street, Osasco, SP",
+        "phone": "(11) 7777-4321",
+        "website": "https://healthylifeclinic.com",
+        "image": "images/healthy-life.png",
+        "membership": "Gold",
+        "description": "Comprehensive healthcare services for your family."
+    },
+    {
+        "name": "Osasco Auto",
+        "address": "404 Drive Lane, Osasco, SP",
+        "phone": "(11) 6666-8765",
+        "website": "https://osascoauto.com",
+        "image": "images/osasco-auto.png",
+        "membership": "Silver",
+        "description": "Reliable automotive repair and maintenance services."
+    },
+    {
+        "name": "Tech Innovators",
+        "address": "505 Innovation Road, Osasco, SP",
+        "phone": "(11) 5555-3456",
+        "website": "https://techinnovators.com",
+        "image": "images/tech-innovators.png",
+        "membership": "Gold",
+        "description": "Pioneering technology solutions for modern businesses."
+    },
+    {
+        "name": "Green Garden Landscaping",
+        "address": "606 Nature Way, Osasco, SP",
+        "phone": "(11) 4444-7890",
+        "website": "https://greengarden.com",
+        "image": "images/green-garden.png",
+        "membership": "Bronze",
+        "description": "Beautiful landscaping services for homes and businesses."
+    },
+    {
+        "name": "Osasco Fitness Center",
+        "address": "707 Workout Blvd, Osasco, SP",
+        "phone": "(11) 3333-5678",
+        "website": "https://osascofitness.com",
+        "image": "images/osasco-fitness.png",
+        "membership": "Gold",
+        "description": "State-of-the-art fitness facilities and personal training."
+    },
+    {
+        "name": "Creative Minds Agency",
+        "address": "808 Branding Lane, Osasco, SP",
+        "phone": "(11) 2222-8765",
+        "website": "https://creativeminds.com",
+        "image": "images/creative-minds.png",
+        "membership": "Silver",
+        "description": "Innovative marketing and branding solutions."
     }
 ]

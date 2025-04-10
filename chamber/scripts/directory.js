@@ -25,10 +25,10 @@ const displayDirectory = (companies) => {
             const card = document.createElement("section");
             card.classList.add("directory-card");
 
-            /*const img = document.createElement("img");
+            const img = document.createElement("img");
             img.setAttribute("src", company.image);
             img.setAttribute("alt", `${company.name} logo`);
-            img.setAttribute("loading", "lazy");*/
+            img.setAttribute("loading", "lazy");
 
             const name = document.createElement("h2");
             name.textContent = company.name;
@@ -47,7 +47,7 @@ const displayDirectory = (companies) => {
             const membership = document.createElement("p");
             membership.textContent = `Membership Level: ${company.membership}`;
 
-            // card.appendChild(img);
+            card.appendChild(img);
             card.appendChild(name);
             card.appendChild(address);
             card.appendChild(phone);

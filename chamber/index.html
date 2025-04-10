@@ -35,6 +35,12 @@
     </header>
     <button id="menu"></button>
     <main>
+        <div id="meet-greet-banner" class="banner-overlay hidden">
+            <div class="banner-content">
+                <p>Join us for the Chamber of Commerce Meet and Greet on <strong>Wednesday at 7:00 p.m.</strong></p>
+                <button id="close-banner">🗙</button>
+            </div>
+        </div>
         <div>
             <div id="home-image-shadow"></div>
             <div class="image-container">
@@ -44,8 +50,8 @@
                 <h1>Osasco Chamber of Commerce: Growing Business <br>Together in Our Community</h1>
                 <p>Join our network of successful businesses and entrepreneurs. Connect, grow, and thrive<br> together.</p>
                 <div class="button-container">
-                    <button class="btn-white">Become a Member</button>
-                    <button class="btn-blue" id="btn-blue-home">Learn More</button>
+                    <button class="btn-white" onclick="window.location.href='join.html'">Become a Member</button>
+                    <button class="btn-blue" id="btn-blue-home" onclick="window.location.href='aboutus.html'">Learn More</button>
                 </div>
             </section>
         </div>
@@ -54,27 +60,12 @@
                 <h2>Today's Weather</h2>
                 <p>Osasco, São Paulo</p>
             </div>
-            <div class="weather-details">
-                <div>
-                    <p>Morning</p>
-                    <h4>65°F</h4>
-                </div>
-                <div>
-                    <p>Afternoon</p>
-                    <h4>72°F</h4>
-                </div>
-                <div>
-                    <p>Evening</p>
-                    <h4>68°F</h4>
-                </div>
-                <div>
-                    <p>Night</p>
-                    <h4>62°F</h4>
-                </div>
+            <div id="weather-details">
+                <!--Weather data will be loaded dinamically.-->
             </div>
             <div>
-                <h2>72°F</h2>
-                <p>Partly Cloudy</p>
+                <h2 id="current-temp">-</h2>
+                <p id="weather-desc">-</p>
             </div>
         </div>
         <h2 id="upcoming-events">Upcoming Events</h2>
@@ -97,22 +88,8 @@
         </section>
         <section class="companies-container">
             <h2>Featured Companies</h2>
-            <div class="companies">
-                <div class="company">
-                    <img src="images/tech-solutions-inc.webp" alt="Tech Solutions Inc.">
-                    <h3>Tech Solutions Inc.</h3>
-                    <p>Leading provider of innovative technology solutions for enterprise business.</p>
-                </div>
-                <div class="company">
-                    <img src="images/global-finance-corp.webp" alt="Global Finance Corp">
-                    <h3>Global Finance Corp</h3>
-                    <p>Expert financial services and consulting for international markets.</p>
-                </div>
-                <div class="company">
-                    <img src="images/green-energy-solutions.webp" alt="Green Energy Solutions">
-                    <h3>Green Energy Solutions</h3>
-                    <p>Sustainable and renewable energy solutions for a better tomorrow.</p>
-                </div>
+            <div class="companies" id="spotlight-companies">
+                <!--Companies data will be loaded dinamically-->
             </div>
         </section>
         <section class="newsletter">
@@ -122,6 +99,10 @@
                 <input type="email" placeholder="Enter your email address">
                 <button class="btn-white">Subscribe</button>
             </form>
+            <dialog id="subscription-modal">
+                <p>Thank you for subscribing! 🎉</p>
+                <button id="close-modal">Close</button>
+            </dialog>
         </section>
     </main>
     <footer>
@@ -129,9 +110,9 @@
             <div>
                 <h3 id="quick-links">Quick Links</h3>
                 <ul class="quick-links">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                 </ul>
             </div>
             <div class="contact">
@@ -162,5 +143,9 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/forecast-api.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/validate-email.js"></script>
 </body>
 </html>
