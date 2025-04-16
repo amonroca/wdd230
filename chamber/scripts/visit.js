@@ -1,12 +1,8 @@
-// Visit Message Logic
 const visitMessage = document.getElementById('visit-message');
-
-// Recupera a última visita do localStorage
 const lastVisit = localStorage.getItem('lastVisit');
 const now = Date.now();
 
 if (!lastVisit) {
-    // Primeira visita
     visitMessage.textContent = "Welcome! Let us know if you have any questions.";
 } else {
     const lastVisitDate = new Date(parseInt(lastVisit, 10));
@@ -22,5 +18,4 @@ if (!lastVisit) {
     }
 }
 
-// Atualiza o localStorage com a data/hora atual
 localStorage.setItem('lastVisit', now);

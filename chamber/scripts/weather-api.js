@@ -1,6 +1,6 @@
-const weatherIcon = document.querySelector("#weather-icon");
 const currentTemp = document.querySelector("#current-temp");
 const weatherDesc = document.querySelector("#weather-desc");
+const weatherInfo = document.querySelector(".weather-info");
 const apiKey = "613d41393c8bb7fff149434d77fa2ffc";
 const lat = "-23.5329";
 const lon = "-46.7923";
@@ -21,6 +21,8 @@ const fetchWeather = async () => {
 };
 
 const updateWeatherCard = (data) => {
+    const weatherIcon = document.createElement("img");
+    weatherIcon.setAttribute("id", "weather-icon");
     currentTemp.innerHTML = `<strong>${data.main.temp.toFixed(1)}°F</strong>`;
     weatherDesc.textContent = data.weather[0].description
         .split(" ")
@@ -31,6 +33,7 @@ const updateWeatherCard = (data) => {
         `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
     );
     weatherIcon.setAttribute("alt", data.weather[0].description);
+    weatherInfo.appendChild(weatherIcon);
 };
 
 fetchWeather();

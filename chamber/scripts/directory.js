@@ -28,6 +28,8 @@ const displayDirectory = (companies) => {
             const img = document.createElement("img");
             img.setAttribute("src", company.image);
             img.setAttribute("alt", `${company.name} logo`);
+            img.setAttribute("width", "200");
+            img.setAttribute("height", "200");
             img.setAttribute("loading", "lazy");
 
             const name = document.createElement("h2");
