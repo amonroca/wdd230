@@ -210,4 +210,11 @@
     .about-section {
         max-width: 80%;
     }
+
+    .navigation .active a {
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: bold;
+        margin: 0;
+    }
 }

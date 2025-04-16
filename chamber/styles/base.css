@@ -345,6 +345,12 @@ footer {
     margin-top: 10px;
 }
 
+.navigation .active a {
+    border: solid 2px white;
+    margin: 5px;
+    font-weight: bold;
+}
+
 .open a {
 	display: block;
 }
