@@ -4,7 +4,7 @@
         "address": "123 Tech Street, Osasco, SP",
         "phone": "(11) 1234-5678",
         "website": "https://techsolutions.com",
-        "image": "images/tech-solutions.png",
+        "image": "images/tech-solutions.webp",
         "membership": "Gold",
         "description": "Innovative technology solutions for businesses."
     },
@@ -13,7 +13,7 @@
         "address": "456 Eco Avenue, Osasco, SP",
         "phone": "(11) 8765-4321",
         "website": "https://greenearth.com",
-        "image": "images/green-earth.png",
+        "image": "images/green-earth.webp",
         "membership": "Silver",
         "description": "Sustainable solutions for a better planet."
     },
@@ -22,7 +22,7 @@
         "address": "789 Bread Lane, Osasco, SP",
         "phone": "(11) 5555-1234",
         "website": "https://osascobakery.com",
-        "image": "images/osasco-bakery.png",
+        "image": "images/osasco-bakery.webp",
         "membership": "Bronze",
         "description": "Freshly baked goods every day."
     },
@@ -31,7 +31,7 @@
         "address": "321 Gym Road, Osasco, SP",
         "phone": "(11) 4444-5678",
         "website": "https://fitnesspro.com",
-        "image": "images/fitness-pro.png",
+        "image": "images/fitness-pro.webp",
         "membership": "Gold",
         "description": "Your partner in health and fitness."
     },
@@ -40,7 +40,7 @@
         "address": "654 Art Street, Osasco, SP",
         "phone": "(11) 3333-8765",
         "website": "https://creativestudio.com",
-        "image": "images/creative-studio.png",
+        "image": "images/creative-studio.webp",
         "membership": "Silver",
         "description": "Design and branding solutions for your business."
     },
@@ -49,7 +49,7 @@
         "address": "987 Greenway, Osasco, SP",
         "phone": "(11) 2222-1234",
         "website": "https://ecotransport.com",
-        "image": "images/eco-transport.png",
+        "image": "images/eco-transport.webp",
         "membership": "Bronze",
         "description": "Eco-friendly transportation services."
     },
@@ -58,7 +58,7 @@
         "address": "159 Coffee Lane, Osasco, SP",
         "phone": "(11) 1111-5678",
         "website": "https://osascocoffee.com",
-        "image": "images/osasco-coffee.png",
+        "image": "images/osasco-coffee.webp",
         "membership": "Gold",
         "description": "The best coffee in town."
     },
@@ -67,7 +67,7 @@
         "address": "101 Knowledge Blvd, Osasco, SP",
         "phone": "(11) 9999-1234",
         "website": "https://brightfutureedu.com",
-        "image": "images/bright-future-education.png",
+        "image": "images/bright-future-education.webp",
         "membership": "Silver",
         "description": "Empowering students with quality education and resources."
     },
@@ -76,7 +76,7 @@
         "address": "202 Fashion Avenue, Osasco, SP",
         "phone": "(11) 8888-5678",
         "website": "https://urbanstyle.com",
-        "image": "images/urban-style.png",
+        "image": "images/urban-style.webp",
         "membership": "Bronze",
         "description": "Trendy clothing and accessories for all ages."
     },
@@ -85,7 +85,7 @@
         "address": "303 Wellness Street, Osasco, SP",
         "phone": "(11) 7777-4321",
         "website": "https://healthylifeclinic.com",
-        "image": "images/healthy-life.png",
+        "image": "images/healthy-life.webp",
         "membership": "Gold",
         "description": "Comprehensive healthcare services for your family."
     },
@@ -94,7 +94,7 @@
         "address": "404 Drive Lane, Osasco, SP",
         "phone": "(11) 6666-8765",
         "website": "https://osascoauto.com",
-        "image": "images/osasco-auto.png",
+        "image": "images/osasco-auto.webp",
         "membership": "Silver",
         "description": "Reliable automotive repair and maintenance services."
     },
@@ -103,7 +103,7 @@
         "address": "505 Innovation Road, Osasco, SP",
         "phone": "(11) 5555-3456",
         "website": "https://techinnovators.com",
-        "image": "images/tech-innovators.png",
+        "image": "images/tech-innovators.webp",
         "membership": "Gold",
         "description": "Pioneering technology solutions for modern businesses."
     },
@@ -112,7 +112,7 @@
         "address": "606 Nature Way, Osasco, SP",
         "phone": "(11) 4444-7890",
         "website": "https://greengarden.com",
-        "image": "images/green-garden.png",
+        "image": "images/green-garden.webp",
         "membership": "Bronze",
         "description": "Beautiful landscaping services for homes and businesses."
     },
@@ -121,7 +121,7 @@
         "address": "707 Workout Blvd, Osasco, SP",
         "phone": "(11) 3333-5678",
         "website": "https://osascofitness.com",
-        "image": "images/osasco-fitness.png",
+        "image": "images/osasco-fitness.webp",
         "membership": "Gold",
         "description": "State-of-the-art fitness facilities and personal training."
     },
@@ -130,7 +130,7 @@
         "address": "808 Branding Lane, Osasco, SP",
         "phone": "(11) 2222-8765",
         "website": "https://creativeminds.com",
-        "image": "images/creative-minds.png",
+        "image": "images/creative-minds.webp",
         "membership": "Silver",
         "description": "Innovative marketing and branding solutions."
     }
